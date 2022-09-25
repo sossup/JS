@@ -1,0 +1,8 @@
+[    ---    ] [        Comparação        ] [   Movimentações   ] [Espaço] [Estavél] [In situ]
+[ Algoritimo] [  Melhor ][ Médio ][ Pior ] [Melhor][Médio][Pior] [  --- ] [  ---  ] [  ---  ]
+[   Bubble  ] [            O(n²)         ] [       O(n²)       ] [ O(1) ] [  sim  ] [  Sim  ]
+[ Selection ] [            O(n²)         ] [        O(n)       ] [ O(1) ] [ não*  ] [  Sim  ] 
+[ Insertion ] [    O(n) ][     O(n²)     ] [ O(n) ][   O(n²)   ] [ O(1) ] [  sim  ] [  Sim  ] 
+[   Merge   ] [          O(n log n)      ] [        ---        ] [ O(n) ] [  sim  ] [  não  ]
+[   Quick   ] [    O(n log n)    ][ O(n²)] [        ---        ] [ O(n) ] [ não*  ] [  Sim  ]
+[   Shell   ] [O(n^(1.25)) ou O(n(ln n)²)] [        ---        ] [ O(1) ] [  não  ] [  Sim  ]
