@@ -4,7 +4,7 @@ import chalk from "chalk";
 
 function trataErro(erro){
     console.log(erro)
-    throw new Error(chalk.red(erro.code, 'caminho invalido'))
+    throw new Error(erro.code, 'caminho invalido')
 }
 
 export async function pegaArquivo(caminho){
